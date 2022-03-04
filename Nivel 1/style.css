@@ -1,0 +1,101 @@
+*{
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+.box{
+    margin-top: 1.5em;
+    background-color: black;
+    height: auto;
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 15px solid #2D4059;
+    background-color: #2D4059;
+}
+
+.caja1{
+    width: 10%;
+    height: 20px;
+    background-color: #EA5455;
+    border-right: 15px solid #2D4059;
+}
+.caja2{
+    width: 80%;
+    height: 20px;
+    background-color: #EA5455;
+    border-right: 15px solid #2D4059;
+    
+}
+.caja3{
+    width: 10%;
+    height: 20px;
+    background-color: #EA5455;
+       
+}
+
+.caja-naranja{
+    width: auto;
+    height: 20px;
+    background-color: #FED460;
+    border: 15px solid #F07B3F;
+    margin-top: 1em;    
+}
+
+.box2{
+    margin-top: 1.5em;
+    padding: 1em;
+    background-color: black;
+    display: flex;
+    
+}
+
+.container1{
+background-color: #2D4059;
+width: 70%;
+height: 150px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+
+}
+.cajas-azules{
+    width: 45%;
+    height: 20px;
+    background-color: #1F6CB0 ;
+}
+.caja-azul{
+    width: 95%;
+    height: 20px;
+    background-color: #70A3C4;
+}
+.container2{
+    background-color: #F73F52;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+margin-left: 1em;
+    
+
+    }
+.cajas-amarillas{
+        width: 90%;
+        height: 20px;
+        background-color: #FEEA85 ;
+        
+    }
+
+.ultima-caja{
+    width: auto;
+    height: 20px;
+    background-color: #E6AF2E;
+    border: 15px solid #000;
+    margin-top: 1em;
+}
