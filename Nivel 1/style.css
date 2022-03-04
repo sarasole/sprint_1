@@ -99,3 +99,21 @@ margin-left: 1em;
     border: 15px solid #000;
     margin-top: 1em;
 }
+@media only screen and (max-width: 1024px)  { 
+    body{
+        margin: 2em;
+    }
+    .box2{
+        background-color: yellow;
+        flex-wrap: wrap;
+    }
+    .container1{
+        width: 100%;
+        margin-bottom: 1em;
+        
+    }
+    .container2{
+        width: 100%;
+        margin: auto; 
+    }
+}
