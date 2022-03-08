@@ -1,0 +1,271 @@
+*{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+header{
+    background-image: url('images/header.jpg');
+    background-size: auto;
+    background-position: center;
+    
+    
+}
+.box{
+    margin-top: 1.5em;
+
+    
+}
+.container{
+    display: flex;
+    height: 280px;
+    padding-top: 2em;
+    
+}
+.caja1{
+    width: 10%;  
+    text-align: center;
+}
+.caja1 img{
+    animation: tamañoLogo 2s;
+    
+}
+.caja1 img:hover{
+ background-color: #E47060;
+ border-radius: 50%;
+}
+.caja2{
+    width: 80%;  
+}
+nav{
+    text-align: center;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a {    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: grey;
+}
+nav ul li a:hover{
+    color: #E47060;
+}
+.fa-solid{
+ margin: 3px;
+}
+.fa-brands:hover, .fab:hover{
+color:#E47060;
+
+}
+
+
+.caja3{
+    width: 10%;
+    height: 100px;      
+}
+.fab, .fa-brands{
+    color: grey;
+    margin-left: 1em;
+}
+.caja-naranja{
+    margin: 0px 60px 0px 60px;
+    padding: 4em 0em 4em 0em;
+    background-color: rgb(0, 0, 0, 0.1) ;   
+} 
+
+h1{
+text-align: center;
+color: rgb(216, 157, 118, 0.7);
+font-family: 'EB Garamond', serif;
+animation: aparecer  2s ease-in;
+
+}
+
+.box2{
+    margin-top: 0.7em;
+     display: flex; 
+     
+}
+
+
+.container1{
+background-color: #E5E5E5;
+width: 80%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.cajas-azules{
+    width: 45%;
+    background-color: #f1f1f1;
+    padding: 7px;
+    margin-top: 1em;
+    animation: aparecer  2s ease-in;
+}
+figure{
+    height: auto;
+}
+figure img{
+    width: 100%;
+    height: 150px;
+	object-fit: cover;
+    
+}
+figcaption{
+    color: yellow;
+    margin: -25px 0em 0em 5px;
+}
+.cajas-azules h2{
+    background-color: #F08080;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    padding: 8px 0px 0px 5px;
+    margin-top: 7px;
+}
+
+.texto-columnas{
+    column-count: 2;
+    column-gap: 10px;
+    margin: 15px 0px 15px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #696969;
+}
+.cajas-azules a{
+    margin-left: 5px;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.cajas-azules a:hover{
+    color: #F08080;
+}
+.caja-azul{
+    text-align: center;
+    padding: 2em 0em 1em 0em ;
+}
+.caja-azul p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.container2{
+    background-color: #E5E5E5;
+    margin-left: 0.7em;
+    width: 20%;
+    padding: 1em;
+
+    }
+
+.cajas-amarillas{
+    text-align: center;
+    }
+.cajas-amarillas h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 1em ;
+
+}
+.cajas-amarillas p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+.ultima-caja{
+    background-color: #f0f0f0;
+    border-left: 15px solid #D8D7D7;
+    border-right: 15px solid #D8D7D7;
+    margin-top: 1em;
+    text-align: center;
+    padding: 0.5em;
+}
+.ultima-caja p{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 1024px)  { 
+    body{
+        margin: 2em;
+    }
+    .box2{
+        
+        flex-wrap: wrap;
+    }
+    .container1{
+        width: 100%;
+        margin-bottom: 1em;
+        
+    }
+    .container2{
+        width: 100%;
+        margin: auto; 
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .box{
+     height: auto;
+ }
+ .container{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .caja1,.caja2,.caja3 {
+     width: 100%;
+     border: none;
+     margin-bottom: 1em;
+ }
+
+ .container1{
+ flex-wrap: wrap;
+ padding: 1em;
+ height: auto;
+ }
+ .cajas-azules{
+     width: 100%;
+     
+     margin-bottom: 1em;
+ }
+ .caja-azul{
+     width: 100%;
+     
+     
+ }
+ .container2{
+     margin-top: 1em;
+     margin-left: 0px;  
+ }
+} 
+
+@keyframes tamañoLogo{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes aparecer{
+   
+    0%{
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+      transform: translate(0);
+      }
+}
